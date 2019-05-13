@@ -27,7 +27,7 @@
         //accessing from a file system or other servers
         else {
             if (mainLink.hostname != "") {
-                baseApiUrl = "https://" + mainLink.hostname + (mainLink.port ? ':' + mainLink.port : '');
+                baseApiUrl = "https://devmifosbackend.cashngo.com.au" + (mainLink.port ? ':' + mainLink.port : '');
             }
 
             if (QueryParameters["baseApiUrl"]) {
